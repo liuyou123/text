@@ -1,0 +1,27 @@
+/* miniprogram/pages/hello/hello.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: #42bd56;
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-top: 108rpx;
+  margin-bottom: 204rpx;
+}
+
+.btn {
+  width: 204rpx;
+  height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #42bd56;
+  border-radius: 5px;
+  font-size: 28rpx;
+  color: #42bd56;
+}

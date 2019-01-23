@@ -1,0 +1,14 @@
+<view style='padding:34rpx;'>
+  <view class="movie_header">
+    <text>{{movies.title}}</text>
+    <text  catchtap="toMore">更多</text>
+  </view>
+  <scroll-view scroll-x>
+    <view class="movie_list">
+      <block wx:for="{{movies.rows}}" wx:key="{{item._id}}">
+        <movieItem movie="{{item}}" />
+      </block>
+    </view>
+  </scroll-view>
+</view>
+<view class='margin'></view>

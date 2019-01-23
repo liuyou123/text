@@ -1,0 +1,4 @@
+/* component/movieItem/movieItem.wxss */
+.movies_item{
+  margin-top: 34rpx;
+}

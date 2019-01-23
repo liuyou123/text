@@ -1,0 +1,11 @@
+<!--miniprogram/pages/movies/movies.wxml-->
+<scroll-view scroll-y>
+  <view class='search'>
+    <image style='width:32rpx;height:32rpx;margin-left:34rpx;margin-right:25rpx' src='../../assets/images/icon/search.png'></image>
+    <input style='font-size:32rpx' placeholder="太空旅客，乘风破浪"></input>
+  </view>
+  <movieSwiper/>
+  <block wx:for="{{[hot,coming]}}" wx:key="{{item.title}}">
+    <movieList movies="{{item}}"/>
+  </block>
+</scroll-view>

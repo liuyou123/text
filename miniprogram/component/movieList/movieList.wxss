@@ -1,0 +1,18 @@
+/* component/movieList/movieList.wxss */
+.movie_header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+.movie_list{
+  display: flex;
+  justify-content: space-between;
+}
+.movie_list>movieItem{
+  margin-right:20rpx;
+}
+.margin{
+  height: 30rpx;
+  width: 100%;
+  background: #F2F2F2;
+}

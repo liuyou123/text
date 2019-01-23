@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movieSwiper":"../../component/swiper/swiper",
+    "movieList":"../../component/movieList/movieList"
+  },
+  "navigationBarTitleText": "豆瓣电影"
+}

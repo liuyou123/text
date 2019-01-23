@@ -1,0 +1,7 @@
+/* miniprogram/pages/movies/movies.wxss */
+.search{
+  display: flex;
+  background: #F2F2F2;
+  align-items: center;
+  height: 80rpx;
+}

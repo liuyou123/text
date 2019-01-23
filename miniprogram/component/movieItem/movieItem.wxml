@@ -1,0 +1,10 @@
+<view class="movies_item" catchtap="toMovieDetails">
+  <view style="display:flex;flex-direction: column;">
+    <image src='{{movie.movieImg}}' style='width:200rpx;height:270rpx;'></image>
+    <text style='margin-top:24rpx;font-size:28rpx;margin-bottom:22rpx;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:200rpx'>{{movie.title}}</text>
+    <view style='display:flex'>
+      <stars average="{{movie.average}}" stars="{{movie.stars}}" />
+      <text style="margin-left:28rpx;">{{movie.average}}</text>
+    </view>
+  </view>
+</view>

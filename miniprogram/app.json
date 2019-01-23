@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/movies/movies",
+    "pages/movieDetails/movieDetails",
+    "pages/hello/hello",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/logs/logs",
+    "pages/more/more"
+  ],
+  "tabBar": {
+    "selectedColor": "#42BD56",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "/assets/images/icon/movie.png",
+        "selectedIconPath": "/assets/images/icon/_movie.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "/assets/images/icon/mine.png",
+        "selectedIconPath": "/assets/images/icon/_mine.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#42Bd56",
+    "navigationBarTextStyle": "white"
+  }
+}

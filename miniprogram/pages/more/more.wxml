@@ -1,0 +1,8 @@
+<!--miniprogram/pages/more/more.wxml-->
+<scroll-view>
+<view class='moreMovies'>
+  <block wx:for="{{movies.rows}}" wx:key="{{item._id}}">
+    <movieItem movie="{{item}}" />
+  </block>
+</view>
+</scroll-view>

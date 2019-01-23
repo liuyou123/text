@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "movieItem":"../component/movieItem/movieItem"
+  },
+  "backgroundTextStyle":"light",
+  "enablePullDownRefresh":true,
+  "onReachBottomDistance":100
+}

@@ -1,0 +1,49 @@
+<!--miniprogram/pages/movieDetails/movieDetails.wxml-->
+<scroll-view>
+  <view style='position: relative;width:100%;height:360rpx; overflow: visible;'>
+    <view class="background1" style='background-image:url("{{movie.movieImg}}")'>
+    </view>
+    <view class='content'>
+      <image src='{{movie.movieImg}}' style='width:200rpx;height:280rpx;'></image>
+      <view class="content_right">
+        <text style='font-size:40rpx'>{{movie.title}}</text>
+        <view class="grade">
+          <text style='font-size:45rpx;'>{{movie.average}}</text>
+          <view style='margin-left:35rpx'>
+            <stars average="{{movie.average}}" stars="{{movie.stars}}"/>
+            <text style='font-size:22rpx;'>{{movie.ratingsCount}}人评价</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='container'>
+    <view>
+      <text>{{movie.durations}}分钟</text>
+      <text>{{movie.genres}}</text>
+    </view>
+    <view style='margin-top:38rpx'>
+      <text>{{movie.year}}</text>
+      <text>中国大陆</text>
+    </view>
+    <view style='margin-top:38rpx'>
+      <text>{{movie.casts}}</text>
+    </view>
+    <view style='margin-top:80rpx;margin-bottom:80rpx;display:flex;justify-content: space-between;'>
+      <view class='btn'>
+        <text>想看</text>
+      </view>
+      <view class='btn'>
+        <text>看过</text>
+      </view>
+    </view>
+    <view>
+      <view>
+        <text style='font-size:30rpx;color:#DFE4E3'>{{movie.title}}简介</text>
+      </view>
+      <view style='margin-top:60rpx;color:#2E2F2C'>
+        <text style=''>{{movie.summary}}</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

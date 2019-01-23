@@ -1,0 +1,12 @@
+<!--miniprogram/pages/hello/hello.wxml-->
+<view class="container">
+     <image style="width:154rpx;height:154rpx;margin-top: 208rpx;"
+          src="../../assets/images/avatar/2.png"
+    ></image>
+    <text class='text'>佛也要生活</text>
+    <view class='btn'catchtap="onTab">
+        <text>
+         进入豆瓣电影
+        </text>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+<!--component/stars/stars.wxml-->
+<view>
+  <block wx:for="{{starArr}}" wx:key="{{item}}">
+   <image src='../../assets/images/icon/star_1.png' style="width:16rpx;height:16rpx " wx:if="{{item==1}}"></image>
+     <image src='../../assets/images/icon/star_5.png' style="width:16rpx;height:16rpx " wx:elif="{{item==5}}"></image>
+      <image src='../../assets/images/icon/star_0.png' style="width:16rpx;height:16rpx " wx:else></image>
+  </block>
+</view>
